@@ -14,6 +14,7 @@ body{
     background-color: white;
 }
 
+
 .fa-compass{
     color: #de424d;
     font-size: 2rem;
@@ -122,4 +123,26 @@ body{
 #map {
     height: 400px; 
     width: 80vh;
+}
+
+@media (max-width: 768px) {
+  #map {
+    height: 250px; 
+    width: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  #map {
+    height: 200px; 
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #navbarNavAltMarkup.show {
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    padding: 10px;
+  }
 }
